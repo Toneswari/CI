@@ -1,12 +1,12 @@
 <?php namespace App\Controllers;
 
 use CodeIgniter\Controller;
-class LoginController extends Controller{
+class RegisterController extends Controller{
     public function index()
 {
     // return view('welcome_message');
     // echo "login successful!";
-    return view("main");
+    return view("register");
     
     // return view("footer");
     // $this->load->view('login');
