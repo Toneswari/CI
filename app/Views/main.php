@@ -1,5 +1,5 @@
 <?php include 'header.php' ?>
-
+<?php include 'menu.php' ?>
     <img src="<?=base_url()?>public/images/first.png" alt="first" >
 
     

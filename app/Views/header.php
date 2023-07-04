@@ -4,7 +4,7 @@
 </head>
 <body>
 <header style="color:green;text-align:center;"><marquee direction="right"behavior="alternate"
-style="border:green 2px SOLID;font-weight:bold;" >Welcome to Absolute Mens shopping</marquee></header>
+style="font-weight:bold;" >Welcome to Absolute Mens shopping</marquee></header>
 
 <br><br>
 
