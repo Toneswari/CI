@@ -30,10 +30,17 @@
 
 
 <li class="nav-item">
+
+        <a class="nav-link" href="<?= site_url("welcome"); ?>"><i class="fa fa-home"></i> Home</a>/* added home link */
+</li>
+<li class="nav-item">
+        <a class="nav-link" href="<?= site_url("products"); ?>"><i class="fa fa-product-hunt"></i> Products</a>/* added product link */
+
         <a class="nav-link" href="#"><i class="fa fa-home"></i> Home</a>
 </li>
 <li class="nav-item">
         <a class="nav-link" href="#"><i class="fa fa-product-hunt"></i> Products</a>
+
 </li>
 <li class="nav-item">
         <a class="nav-link" href="#"><i class="fa fa-info" aria-hidden="true"></i> About US</a>
@@ -48,7 +55,12 @@
 <li class="nav-item">
         <a class="nav-link dropdown-toggle text-blue " data-toggle="dropdown" href="#">Account<i class="fa fa-user"></i></a>
         <div class="dropdown-menu">
+
+<a href="#" class="dropdown-item">Register</a><a href="<?= site_url("login"); ?>" class="dropdown-item">Login</a>/* added login link */
+          <a href="#" class="dropdown-item">Log out</a>
+
 <a href="#" class="dropdown-item">Register</a><a href="#" class="dropdown-item">Login</a> <a href="#" class="dropdown-item">Log out</a>
+
 
 </li>
 <li class="nav-item "><a href="#"class="nav-link  text-blue">Notifications<i class="fa fa-bell"></i><span class="badge badge-danger bg-danger badge-pill">10</span></a></li>
