@@ -23,7 +23,7 @@
 }
     </style>
 <body>
-    <?php include('header.php') ?><br><br>
+    <?php include('header.php') ?>
     <?php include('menu.php') ?><br><br>
 <div class="container-fluid">
       <div class="row card-columns">
@@ -48,10 +48,10 @@
             </div>
             </div>
             <div class="card" style="width:300px;">
-              <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+              <img src="public/images/biotique.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
               <div class="card-body">
-                <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                <div class="card-text"> Rs.300<br>
+                <div class="card-title" class="bg-info text-center"><p>Biotique Green Apple Shine & Gloss Shampoo</p></div><br>
+                <div class="card-text"> Rs.150<br>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
@@ -69,10 +69,10 @@
               </div>
               </div>
               <div class="card" style="width:300px;">
-                <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                <img src="public/images/serum.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                 <div class="card-body">
-                  <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                  <div class="card-text"> Rs.300<br>
+                  <div class="card-title" class="bg-info text-center"><p>Minimalist 10% Vitamin C Serum For Face For Illuminating Skin For Beginners</p></div><br>
+                  <div class="card-text"> Rs.664<br>
                     <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -89,10 +89,10 @@
                 </div>
                 </div>
                 <div class="card float-right" style="width:300px;" >
-                  <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                  <img src="public/images/colorprotection.jpeg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                   <div class="card-body">
-                    <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                    <div class="card-text"> Rs.300<br>
+                    <div class="card-title" class="bg-info text-center"><p>Petal Fresh Pure Pomegranate & Acai Color Protection Conditioner</p></div><br>
+                    <div class="card-text"> Rs.470<br>
                       <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -110,10 +110,10 @@
                   </div>
 
                   <div class="card float-right" style="width:300px;" >
-                    <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                    <img src="public/images/ustra.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                     <div class="card-body">
-                      <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                      <div class="card-text"> Rs.300<br>
+                      <div class="card-title" class="bg-info text-center"><p>Ustraa Power Face Wash Energize And De-Tan</p></div><br>
+                      <div class="card-text"> Rs.299<br>
                         <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -131,10 +131,10 @@
 
 
                     <div class="card float-right" style="width:300px;" >
-                      <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                      <img src="public/images/plumgreentea.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                       <div class="card-body">
-                        <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                        <div class="card-text">Rs.300<br>
+                        <div class="card-title" class="bg-info text-center"><p>Plum Green Tea Pore Cleansing Face Wash</p></div><br>
+                        <div class="card-text">Rs.240<br>
                           <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -151,10 +151,10 @@
                       </div>
 
                       <div class="card float-right" style="width:300px;" >
-                        <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                        <img src="public/images/moisture.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                         <div class="card-body">
-                          <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                          <div class="card-text"> Rs.300<br>
+                          <div class="card-title" class="bg-info text-center"><p>Plum Green Tea Mattifying Moisturizer</p></div><br>
+                          <div class="card-text"> Rs.100<br>
                             <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -171,10 +171,10 @@
                         </div>
 
                         <div class="card float-right" style="width:300px;" >
-                          <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                          <img src="public/images/bodybutter.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                           <div class="card-body">
-                            <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                            <div class="card-text"> Rs.300<br>
+                            <div class="card-title" class="bg-info text-center"><p>Plum Bodylovin' Oopsie Daisy Body Butter</p></div><br>
+                            <div class="card-text"> Rs.394<br>
                               <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -191,10 +191,10 @@
                           </div>
   
                           <div class="card float-right" style="width:300px;" >
-                            <img src="public/images/product.png" class="border-bottom card-img-top card-img-bottom img-thumbnail" height="300px">
+                            <img src="public/images/mask.jpg" class="border-bottom card-img-top card-img-bottom img-thumbnail" height="300px">
                             <div class="card-body">
-                              <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                              <div class="card-text"> Rs.300<br>
+                              <div class="card-title" class="bg-info text-center"><p>WeDo Professional Light & Soft Mask For Fine Hair</p></div><br>
+                              <div class="card-text"> Rs.1250<br>
                                 <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
@@ -213,10 +213,10 @@
 
 
                             <div class="card float-right" style="width:300px;" >
-                              <img src="public/images/product.png" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
+                              <img src="public/images/freshrose.jpg" class="border-bottom  card-img-top card-img-bottom img-thumbnail" height="300px">
                               <div class="card-body">
-                                <div class="card-title" class="bg-info text-center"><p>The body shop Tree purifying shampoo</p></div><br>
-                                <div class="card-text"> Rs.300<br>
+                                <div class="card-title" class="bg-info text-center"><p>Petal Fresh Pure Rose & Honeysuckle Softening Conditioner</p></div><br>
+                                <div class="card-text"> Rs.760<br>
                                   <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
                  <span class="fa fa-star checked"></span>
