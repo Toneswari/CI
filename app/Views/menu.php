@@ -14,9 +14,10 @@
     </style>
 <body>
 
-<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
-<div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
+<nav class="navbar navbar-expand-lg  navbar-dark ">
+
+<ul class="nav nav-tabs justify-content-center nav-fill">
+
 <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 </li>
@@ -33,8 +34,8 @@
         <a class="nav-link" href="#">Add to cart</a>
 </li>
 </ul>
-    
-</div>
+
+
 </nav>
 
 

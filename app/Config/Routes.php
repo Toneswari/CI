@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'Welcome::view');
 $routes->get('/welcome','LoginController::index');
 $routes->get('/register','RegisterController::index');
+$routes->get('/products','ProductController::index');
 // $routes->get('LoginController',[LoginController::class,'index']);
 /*
  * --------------------------------------------------------------------
