@@ -64,7 +64,7 @@ font-style:Rubik;
     <input type="text" name="last name" id="last" placeholder="Last Name"><br><br>
     <input type="text" name="phone number" id="phone" placeholder="Mobile Number"><br><br>
     <input type="email" name="Email" id="email" placeholder="Email ID"><br><br>
-    <input type="password" name="password" id="pass" placeholder="PassWord"><br><br>
+    <input type="password" name="password" id="pass" placeholder="Password"><br><br>
     <input type="password" name="confirm password" id="confirm" placeholder="Confirm Password"><br><br>
     <button class="btn  btn-primary btn-md">Continue</button><br><br>
     <a href="#" style="text-decoration:none;">Already have an account?</a><br><br>
