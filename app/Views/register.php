@@ -6,13 +6,14 @@
 
 <style>
 body {
-  background-color: white;
+  background-color: black;
   display:flex;
   height:100vh;
   justify-content:center;
   align-items:center;
   background-size:cover;
   flex-direction:column;
+  color:white;
 }
 
 .container{
@@ -30,20 +31,20 @@ body {
     padding-bottom:6px;
     /* text-shadow:2px 2px 2px black; */
     border-bottom:solid 1px white;
-    color:black;
+    color:white;
 
 }
-.main-user-info{
+/* .main-user-info{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
     padding:20px 0;
 
-}
+} */
 
-.user-input-box:nth-child(2n){
+/* .user-input-box:nth-child(2n){
 justify-content:end;
-}
+} */
 
 .user-input-box{
     display:flex;
@@ -67,7 +68,7 @@ cursor:pointer;
 }
 
 .form-submit-btn{
-    margin-top:40px;
+    margin-top:30px;
 }
 
 
@@ -79,6 +80,7 @@ font-size:20px;
 padding:10px;
 border:none;
 border-radius:3px;
+
 }
 *{
     padding:0;
@@ -90,7 +92,7 @@ border-radius:3px;
 form{
 display:grid;
 place-content:center;
-grid-template-columns:100%;
+/* grid-template-columns:100%; */
 text-align:center;
 }
 
@@ -108,20 +110,20 @@ form{
 
 
 
-  .user-input-box{
+  /* .user-input-box{
     margin-bottom:12px;
     width:100%;
-  }
-  .user-input-box:nth-child(2n){
+  } */
+  /* .user-input-box:nth-child(2n){
     justify-content:space-between;
-  }
-  .main-user-info{
+  } */
+  /* .main-user-info{
     max-height:380px;
     overflow:auto;
-  }
-  .main-user-info::-webkit-scrollbar{
+  } */
+  /* .main-user-info::-webkit-scrollbar{
     width:0;
-  }
+  } */
 }
 
 
@@ -139,33 +141,34 @@ form{
 
 <div class="container">
 
-    <h1 class="form-title">Register</h1><br><br>
+    
     <form action="#">
+    <h1 class="form-title">Register</h1><br>
         <div class="main-user-info">
             <div class="main-input-box">
                 
     <input type="text" name="first name" id="first" placeholder="First Name">
-</div><br><br>
+</div><br>
 <div class="main-input-box">
     <input type="text" name="last name" id="last" placeholder="Last Name">
-</div><br><br>
+</div><br>
 <div class="main-input-box">
     <input type="text" name="phone number" id="phone" placeholder="Mobile Number">
-</div><br><br>
+</div><br>
 <div class="main-input-box">
     <input type="email" name="Email" id="email" placeholder="Email ID">
-</div><br><br>
+</div><br>
 <div class="main-input-box">
     <input type="password" name="password" id="pass" placeholder="Password">
-</div><br><br>
+</div><br>
 <div class="main-input-box">
     <input type="password" name="confirm password" id="confirm" placeholder="Confirm Password">
-</div><br><br>
+</div>
 <div class="form-submit-btn">
-    <button class="btn  btn-primary btn-block">Continue</button><br><br>
-</div><br><br>
-    <a href="#" style="text-decoration:none;">Already have an account?</a><br><br>
-    <a href="#">Login Here</a>
+    <button class="btn  btn-primary btn-block">Continue</button>
+</div>
+    <a href="#" style="text-decoration:none;">Already have an account?</a><br>
+    <a href="<?= site_url('login');?>">Login Here</a>
 </div>
 </form>
 </div>

@@ -56,10 +56,22 @@ h3{
 p{
     text-align:center;
 }
-container{
+.d-grid gap-2 d-md-flex{
     text-align:center;
     align-items:center;
     justify-content:center;
+}
+@media (max-width: 1200px) {
+.global-container{
+    min-width:280px;
+}
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
     </style>
@@ -72,6 +84,9 @@ container{
         <p>Enter your registered Mobile or Email ID</p>
         <div class="card-text">  
             <form>  
+            <div class="form-group">   
+                    <input type="text" class="form-control form-control-sm" id="name" aria-describedby="emailHelp" placeholder="Enter name">  
+                </div> 
                 <div class="form-group">   
                     <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile or Email ID">  
                 </div>  
@@ -84,12 +99,12 @@ container{
                 <button type="submit" class="btn btn-outline-primary btn-block"> Login with OTP </button> 
                 <hr> 
                 <p>or Login using social media</p><br>
-                <div class="container" >
-                <img src="<?=base_url()?>public/images/google.png" height=50px width=50px>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="d-grid gap-2 d-md-flex" >
+    <i class="fa fa-google" style="font-size:48px;height:50px;width:50px;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <i class="fa fa-facebook-official" style="color:blue;font-size:48px;height:50px;width:50px;"></i>
 </div>
                 <div class="sign-up">  
-                    Don't have an account? <a href="#"> Register Here </a>  
+                    Don't have an account? <a href="<?= site_url('register');?>"> Register Here </a>  
                 </div>  
             </form>  
         </div>  
